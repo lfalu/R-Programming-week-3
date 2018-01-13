@@ -52,7 +52,7 @@ cacheSolve(m1) #the inverse of m is calculated
 finish_time <- Sys.time()
 print(c("execution time: ", finish_time - start_time))
 
-## next, pullink it from cache
+## next, pull it from cache
 start_time <- Sys.time()
 cacheSolve(m1) #the inverse is returned from cache
 finish_time <- Sys.time()
